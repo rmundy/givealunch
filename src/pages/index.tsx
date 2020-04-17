@@ -1,11 +1,10 @@
 import * as React from 'react';
 import Helmet from 'react-helmet';
-import { graphql } from 'gatsby';
-
-import { FetchRestaurants } from 'services/Airtable';
 
 import { Intro } from 'components/intro/Intro';
 import RestaurantList from 'components/restaurant-list/RestaurantList';
+
+import { FetchRestaurants } from 'services/Airtable';
 
 import s from './index.scss';
 
