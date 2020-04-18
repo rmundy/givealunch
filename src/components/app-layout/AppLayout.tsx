@@ -29,7 +29,7 @@ export default ({ children }: IAppLayoutProps) => (
     <Helmet {...helmet} />
 
     <Header>
-      <HeaderLink name="Why?" to="/about" />
+      <HeaderLink name="Why?" to="/why" />
       <HeaderLink name="Send us a restaurant" to="/about" />
     </Header>
     {children}
